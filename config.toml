@@ -20,7 +20,7 @@ DefaultContentLanguage = "en"
 
 [params]
 disqus = "edublog" # disqus account name
-# extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113741959-4"></script><script src="https://joway.io/analytics.js"></script>'
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113741959-4"></script><script src="https://joway.io/analytics.js"></script>'
 
 [[params.socials]]
 name = "About Me"
