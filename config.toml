@@ -1,4 +1,4 @@
-baseURL = "https://devopscreed.com"
+baseURL = "https://youthful-villani-10bc56.netlify.com/"
 languageCode = "en-us"
 title = "EduBlog"
 theme = ""
@@ -28,3 +28,8 @@ link = "https://avimehenwal.in"
 [[params.socials]]
 name = "Github"
 link = "https://github.com/avimehenwal"
+
+[taxonomies]
+  category = "categories"
+  series   = "series"
+  tag      = "tags"
