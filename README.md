@@ -1,0 +1,2 @@
+# EduBlog
+Educational Blog
