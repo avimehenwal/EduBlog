@@ -1,0 +1,31 @@
+baseURL = "https://devopscreed.com"
+languageCode = "en-us"
+title = "EduBlog"
+theme = ""
+DefaultContentLanguage = "en"
+
+[author]
+  name = "Avi Mehenwal"
+  homepage = "https://avimehenwal.in"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+  [languages.de]
+    contentDir = "content/de"
+    languageName = "Deutsch"
+    weight = 2
+
+[params]
+disqus = "edublog" # disqus account name
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113741959-4"></script><script src="https://joway.io/analytics.js"></script>'
+
+[[params.socials]]
+name = "About Me"
+link = "https://avimehenwal.in"
+
+[[params.socials]]
+name = "Github"
+link = "https://github.com/avimehenwal"
