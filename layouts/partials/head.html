@@ -42,11 +42,19 @@
   <link href="{{ "index.xml" | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
   <!-- quicklink require -->
   <script>
-    /* Disable minification (remove `.min` from URL path) for more info 
+    /* Disable minification (remove `.min` from URL path) for more info
     https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver
     */
     (function(undefined) {}).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
   </script>
 
-  {{ .Site.Params.extraHead | safeHTML }}
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113741959-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113741959-4');
+  </script>
 </head>
