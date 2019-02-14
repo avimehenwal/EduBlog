@@ -43,6 +43,16 @@
   <url>
     <loc>https://devopscreed.com/de/posts/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://devopscreed.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://devopscreed.com/de/posts/"
+                />
   </url>
   
   <url>

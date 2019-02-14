@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://devopscreed.com/posts/third-one/</loc>
+    <lastmod>2019-02-14T11:54:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devopscreed.com/posts/second-one/</loc>
+    <lastmod>2019-02-14T11:54:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://devopscreed.com/posts/first-one/</loc>
+    <lastmod>2019-02-14T11:53:35+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://devopscreed.com/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -19,6 +34,7 @@
   
   <url>
     <loc>https://devopscreed.com/</loc>
+    <lastmod>2019-02-14T11:54:09+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -29,6 +45,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://devopscreed.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://devopscreed.com/posts/</loc>
+    <lastmod>2019-02-14T11:54:09+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://devopscreed.com/de/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://devopscreed.com/posts/"
                 />
   </url>
   

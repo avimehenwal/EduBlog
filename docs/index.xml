@@ -6,9 +6,37 @@
     <description>Recent content on EduBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 14 Feb 2019 11:54:09 +0100</lastBuildDate>
     
 	<atom:link href="https://devopscreed.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Third One</title>
+      <link>https://devopscreed.com/posts/third-one/</link>
+      <pubDate>Thu, 14 Feb 2019 11:54:09 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/third-one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Second One</title>
+      <link>https://devopscreed.com/posts/second-one/</link>
+      <pubDate>Thu, 14 Feb 2019 11:54:03 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/second-one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First One</title>
+      <link>https://devopscreed.com/posts/first-one/</link>
+      <pubDate>Thu, 14 Feb 2019 11:53:35 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/first-one/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
