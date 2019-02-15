@@ -1,7 +1,6 @@
 baseURL = "https://devopscreed.com/"
 languageCode = "en-us"
 title = "EduBlog"
-theme = ""
 DefaultContentLanguage = "en"
 
 [author]
@@ -20,6 +19,7 @@ DefaultContentLanguage = "en"
 
 [params]
 disqus = "edublog" # disqus account name
+description = "Educational Blog from avimehenwal"
 
 [[params.socials]]
 name = "About Me"

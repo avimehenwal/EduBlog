@@ -11,7 +11,7 @@
   <link rel="shortcut icon" href="{{ .Site.Params.favicon }}" type="image/x-png" />
   {{- end -}}
 
-  {{ partial "seo" . }}
+  {{ partial "seo.html" . }}
   {{- if .IsHome -}}
   <title>{{ .Site.Title }}</title>
   <meta property="og:title" content="{{ .Site.Title }}" />
