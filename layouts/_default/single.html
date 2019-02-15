@@ -19,14 +19,7 @@
                   {{ .Date.Format "02 Jan 2006" }}
                 </time><br>
 
-                <!-- Add tags to post -->
-
-                {{ range $key, $value := .Site.Taxonomies.tags }}
-                  <span class="w3-tag w3-blue w3-round-large">
-                    <a href="{{ "/" }}categories/{{ $key | urlize  }}"> {{ $key | humanize }} </a>
-                    <span class="w3-badge w3-margin-lef">{{ len $value }}</span>
-                  </span>
-                {{ end }}
+                {{ partial "tags.html" . }}
 
               </div>
               <div class="col-xs-6">
@@ -56,7 +49,7 @@
         </div>
       </div>
     </article>
-    
+
     {{ partial "scripts.html" . }}
     {{ if .Site.Params.extraBody }}
       {{ .Site.Params.extraBody | safeHTML }}

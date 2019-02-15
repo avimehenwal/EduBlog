@@ -1,0 +1,26 @@
+<!--Add Category to post -->
+{{ with .Params.categories }}
+   {{ range . }}
+     <span class="w3-tag w3-green w3-round-large">
+       <a href="{{ "categories" | absURL }}{{ . | urlize }}">{{ . }}</a>
+     </span>
+  {{ end }}
+ {{ end }}
+
+<!-- Add series to posts -->
+{{ with .Params.series }}
+  {{ range . }}
+    <span class="w3-tag w3-red w3-round-large">
+      <a href="{{ "series" | absURL }}{{ . | urlize }}">{{ . }}</a>
+    </span>
+ {{ end }}
+{{ end }}
+
+<!-- Add tags to post -->
+{{ with .Params.tags }}
+   {{ range . }}
+     <span class="w3-tag w3-blue w3-round-large">
+       <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a>
+     </span>
+  {{ end }}
+ {{ end }}
