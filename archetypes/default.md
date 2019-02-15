@@ -2,8 +2,8 @@
 title       : "{{ replace .TranslationBaseName "-" " " | title }}"
 date        : {{ .Date }}
 video       : ""
-categories  : [""]
-series      : [""]
+categories  : ["myLearning"]
+series      : ["design", "deployment", "development"]
 tags        : [""]
 revision    : 0
 ---
