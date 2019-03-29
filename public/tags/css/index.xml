@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on EduBlog</title>
+    <link>https://devopscreed.com/tags/css/</link>
+    <description>Recent content in Css on EduBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Feb 2019 19:04:56 +0100</lastBuildDate>
+    
+	<atom:link href="https://devopscreed.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Make Responsive Designs</title>
+      <link>https://devopscreed.com/posts/how-to-make-responsive-designs/</link>
+      <pubDate>Fri, 15 Feb 2019 19:04:56 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/how-to-make-responsive-designs/</guid>
+      <description>Why care about responsive and mobile first design at all? Designing for best experience for all users
+Responsive window The viewport is the user&amp;rsquo;s visible area of a web page.
+&amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; Responsive Images Use percentages % instead of pixel values. Use calculatable ranges instead of harcoded values.
+Use width and max-width css property with images to decide span.
+&amp;lt;img src=&amp;#34;img_girl.jpg&amp;#34; style=&amp;#34;width:100%;&amp;#34;&amp;gt; &amp;lt;img src=&amp;#34;img_girl.jpg&amp;#34; style=&amp;#34;max-width:100%;height:auto;&amp;#34;&amp;gt; Use special picture HTML Tag to manipulate image based on display resolution size.</description>
+    </item>
+    
+    <item>
+      <title>w3-css Framework in 2 minutes or less</title>
+      <link>https://devopscreed.com/posts/w3-css-framework/</link>
+      <pubDate>Thu, 14 Feb 2019 21:08:15 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/w3-css-framework/</guid>
+      <description>The w3-container good for all HTML container elements like &amp;lt;div&amp;gt;, &amp;lt;article&amp;gt;, &amp;lt;section&amp;gt;, &amp;lt;header&amp;gt;, &amp;lt;footer&amp;gt;, &amp;lt;form&amp;gt;, and more. adds 16px left and right padding to any HTML element. The w3-panel class adds a 16px top and bottom margin and a 16px left and right padding to any HTML element. Good for displaying notes, alerts, quotes, blockquotes, notification of changes etc w3-border can add that extra touch of color for attention and detail.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://devopscreed.com/de/posts/deutsch-mitarbeiter/</loc>
+  </url>
+  
+  <url>
+    <loc>https://devopscreed.com/de/posts/deutsch-post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://devopscreed.com/de/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://devopscreed.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://devopscreed.com/de/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://devopscreed.com/de/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://devopscreed.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://devopscreed.com/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://devopscreed.com/de/posts/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://devopscreed.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://devopscreed.com/de/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://devopscreed.com/de/series/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://devopscreed.com/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://devopscreed.com/de/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://devopscreed.com/de/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://devopscreed.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://devopscreed.com/de/tags/"
+                />
+  </url>
+  
+</urlset>

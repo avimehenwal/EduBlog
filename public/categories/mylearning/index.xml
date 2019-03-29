@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mylearning on EduBlog</title>
+    <link>https://devopscreed.com/categories/mylearning/</link>
+    <description>Recent content in Mylearning on EduBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Mar 2019 14:20:22 +0100</lastBuildDate>
+    
+	<atom:link href="https://devopscreed.com/categories/mylearning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fundamental Parts of a Webpage</title>
+      <link>https://devopscreed.com/posts/fundamental-parts-of-website-and-webpages/</link>
+      <pubDate>Fri, 29 Mar 2019 14:20:22 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/fundamental-parts-of-website-and-webpages/</guid>
+      <description>The whole purpose of the existence of any webpage should be deliver the  information  . The type of information decides the genre of the blog post.
+ While the content and information presented on webpage forms the solid foundation of knowledge,  presentation  is equally important.
+     Basic components of a webpage  Descriptive Header
+  Main purpose in body
+ Multimedia formats can help present the information more intuitive way.</description>
+    </item>
+    
+    <item>
+      <title>Markdown using Blackfriday Go Parser</title>
+      <link>https://devopscreed.com/posts/blackfriday-markdown-go-parser/</link>
+      <pubDate>Mon, 18 Feb 2019 10:12:02 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/blackfriday-markdown-go-parser/</guid>
+      <description>An admonition paragraph draws the reader&amp;#8217;s attention to auxiliary information. Its purpose is determined by the label at the beginning of the paragraph.
+ Here are the other built-in admonition types:
+     Asciidoctor supports font-based admonition icons, powered by Font Awesome!         Pro tip&amp;#8230;&amp;#8203;         Don&amp;#8217;t forget&amp;#8230;&amp;#8203;         Watch out for&amp;#8230;&amp;#8203;         Ensure that&amp;#8230;&amp;#8203;      https://github.</description>
+    </item>
+    
+    <item>
+      <title>How to Make Responsive Designs</title>
+      <link>https://devopscreed.com/posts/how-to-make-responsive-designs/</link>
+      <pubDate>Fri, 15 Feb 2019 19:04:56 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/how-to-make-responsive-designs/</guid>
+      <description>Why care about responsive and mobile first design at all? Designing for best experience for all users
+Responsive window The viewport is the user&amp;rsquo;s visible area of a web page.
+&amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt; Responsive Images Use percentages % instead of pixel values. Use calculatable ranges instead of harcoded values.
+Use width and max-width css property with images to decide span.
+&amp;lt;img src=&amp;#34;img_girl.jpg&amp;#34; style=&amp;#34;width:100%;&amp;#34;&amp;gt; &amp;lt;img src=&amp;#34;img_girl.jpg&amp;#34; style=&amp;#34;max-width:100%;height:auto;&amp;#34;&amp;gt; Use special picture HTML Tag to manipulate image based on display resolution size.</description>
+    </item>
+    
+    <item>
+      <title>What Are Git Tags and Github Releases?</title>
+      <link>https://devopscreed.com/posts/what-are-github-tags-and-releases/</link>
+      <pubDate>Fri, 15 Feb 2019 12:54:50 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/what-are-github-tags-and-releases/</guid>
+      <description>Git tags on git commit tree illustration   Before getting deeper in to git tags, lets first understand the basics information provided by a software package to its users.
+Components of a release  release notes and a packaged software bundle or binaries  What are git tags exactly and why need them? Git tags are specific points in the history of your repository, which you might want to rollback in case anything bad happens.</description>
+    </item>
+    
+    <item>
+      <title>How to set up DNS for Netlify on Godaddy</title>
+      <link>https://devopscreed.com/posts/setting-up-dns-for-netlify-on-godaddy/</link>
+      <pubDate>Fri, 15 Feb 2019 00:37:02 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/setting-up-dns-for-netlify-on-godaddy/</guid>
+      <description>Easy way to setup and configure DNS on godaddy to be used by netlify for custome domain setting.
+ Once your website is deployed and ready on netlify, copy the name netlify server name (url where it is hosted by netlify). It should be something like youthful-villani-10bc56.netlify.com Log in and open godaddy console -&amp;gt; Manage DNS for your selection and then add the following A and CNAME records  Type	Name	Value A @ 104.</description>
+    </item>
+    
+    <item>
+      <title>w3-css Framework in 2 minutes or less</title>
+      <link>https://devopscreed.com/posts/w3-css-framework/</link>
+      <pubDate>Thu, 14 Feb 2019 21:08:15 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/w3-css-framework/</guid>
+      <description>The w3-container good for all HTML container elements like &amp;lt;div&amp;gt;, &amp;lt;article&amp;gt;, &amp;lt;section&amp;gt;, &amp;lt;header&amp;gt;, &amp;lt;footer&amp;gt;, &amp;lt;form&amp;gt;, and more. adds 16px left and right padding to any HTML element. The w3-panel class adds a 16px top and bottom margin and a 16px left and right padding to any HTML element. Good for displaying notes, alerts, quotes, blockquotes, notification of changes etc w3-border can add that extra touch of color for attention and detail.</description>
+    </item>
+    
+  </channel>
+</rss>

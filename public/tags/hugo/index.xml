@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on EduBlog</title>
+    <link>https://devopscreed.com/tags/hugo/</link>
+    <description>Recent content in Hugo on EduBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Feb 2019 10:12:02 +0100</lastBuildDate>
+    
+	<atom:link href="https://devopscreed.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown using Blackfriday Go Parser</title>
+      <link>https://devopscreed.com/posts/blackfriday-markdown-go-parser/</link>
+      <pubDate>Mon, 18 Feb 2019 10:12:02 +0100</pubDate>
+      
+      <guid>https://devopscreed.com/posts/blackfriday-markdown-go-parser/</guid>
+      <description>An admonition paragraph draws the reader&amp;#8217;s attention to auxiliary information. Its purpose is determined by the label at the beginning of the paragraph.
+ Here are the other built-in admonition types:
+     Asciidoctor supports font-based admonition icons, powered by Font Awesome!         Pro tip&amp;#8230;&amp;#8203;         Don&amp;#8217;t forget&amp;#8230;&amp;#8203;         Watch out for&amp;#8230;&amp;#8203;         Ensure that&amp;#8230;&amp;#8203;      https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

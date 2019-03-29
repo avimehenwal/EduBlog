@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.53" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Avi Mehenwal" />
+  <meta property="og:url" content="https://devopscreed.com/posts/what-are-github-tags-and-releases/" />
+  <link rel="canonical" href="https://devopscreed.com/posts/what-are-github-tags-and-releases/" /><script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https://devopscreed.com/"
+      },
+      "articleSection" : "posts",
+      "name" : "What Are Git Tags and Github Releases?",
+      "headline" : "What Are Git Tags and Github Releases?",
+      "description" : "Git tags on git commit tree illustration   Before getting deeper in to git tags, lets first understand the basics information provided by a software package to its users.
+Components of a release  release notes and a packaged software bundle or binaries  What are git tags exactly and why need them? Git tags are specific points in the history of your repository, which you might want to rollback in case anything bad happens.",
+      "inLanguage" : "en-US",
+      "author" : "Avi Mehenwal",
+      "creator" : "Avi Mehenwal",
+      "publisher": "Avi Mehenwal",
+      "accountablePerson" : "Avi Mehenwal",
+      "copyrightHolder" : "Avi Mehenwal",
+      "copyrightYear" : "2019",
+      "datePublished": "2019-02-15 12:54:50 &#43;0100 CET",
+      "dateModified" : "2019-02-15 12:54:50 &#43;0100 CET",
+      "url" : "https://devopscreed.com/posts/what-are-github-tags-and-releases/",
+      "keywords" : [ "git","release","tags", ]
+  }
+</script>
+<title>What Are Git Tags and Github Releases? - EduBlog</title>
+  <meta property="og:title" content="What Are Git Tags and Github Releases? - EduBlog" />
+  <meta property="og:type" content="article" />
+  <meta name="description" content="Git tags on git commit tree illustration   Before getting deeper in to git tags, lets first understand the basics information provided by a software package to its users.
+Components of a release  release notes and a packaged software bundle or binaries  What are git tags exactly and why need them? Git tags are specific points in the history of your repository, which you might want to rollback in case anything bad happens." />
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/tomorrow.min.css"
+  />
+  <link rel="stylesheet" href="/css/index.css">
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="EduBlog">
+  
+  <script>
+    
+
+    (function(undefined) {}).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
+  </script>
+
+  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113741959-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113741959-4');
+  </script>
+</head>
+
+
+  <body>
+    <article class="post English" id="article">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+          <header>
+  <div class="signatures site-title">
+    <a href="/">EduBlog</a>
+  </div>
+</header>
+
+
+          <a href="/">
+            <div class="head-line"></div>
+          </a>
+          <header class="post-header">
+            <h1 class="post-title">What Are Git Tags and Github Releases?</h1>
+            <div class="row">
+              <div class="col-xs-6">
+                <time class="post-date" datetime="2019-02-15 12:54:50 CET">
+                  15 Feb 2019
+                </time><br>
+
+                
+
+   
+     <span class="w3-tag w3-green w3-round-large">
+       <a href="https://devopscreed.com/categoriesmylearning">myLearning</a>
+     </span>
+  
+ 
+
+
+
+  
+    <span class="w3-tag w3-red w3-round-large">
+      <a href="https://devopscreed.com/seriesdevelopment">development</a>
+    </span>
+ 
+
+
+
+
+   
+     <span class="w3-tag w3-blue w3-round-large">
+       <a href="https://devopscreed.com/tagsgit">git</a>
+     </span>
+  
+     <span class="w3-tag w3-blue w3-round-large">
+       <a href="https://devopscreed.com/tagsrelease">release</a>
+     </span>
+  
+     <span class="w3-tag w3-blue w3-round-large">
+       <a href="https://devopscreed.com/tagstags">tags</a>
+     </span>
+  
+ 
+
+
+              </div>
+              <div class="col-xs-6">
+                <div class="post-author">
+                  <a target="_blank" href="https://avimehenwal.in">@Avi Mehenwal</a>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <div class="post-content markdown-body">
+            
+
+<figure>
+    <img src="/img/git-tags.png"/> <figcaption>
+            <h4>Git tags on git commit tree illustration</h4>
+        </figcaption>
+</figure>
+
+
+<p>Before getting deeper in to git tags, lets first understand the
+basics information provided by a software package to its users.</p>
+
+<h4 id="components-of-a-release">Components of a release</h4>
+
+<ul>
+<li>release notes and</li>
+<li>a packaged software bundle or binaries</li>
+</ul>
+
+<h3 id="what-are-git-tags-exactly-and-why-need-them">What are git tags exactly and why need them?</h3>
+
+<p><a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging">Git tags</a> are specific points
+in the history of your repository, which you might want to rollback in case anything bad happens.</p>
+
+<p>Usually git commit trees grow long very quickly and it might be daunting to remember the
+goog commit from the bad ones. Thats where git tags comes in handy and they are excellent in
+labelling the <strong>commits of interest</strong></p>
+
+<p>Versions in Github are based on Git tags</p>
+
+<h3 id="how-to-we-tag-out-git-commit-tree">How to we tag out git commit tree?</h3>
+
+<p>A good and standard approach is to follow the <strong>Version Semantics scheme</strong></p>
+
+<pre><code>MAJOR.MINOR.PATCH
+</code></pre>
+
+<p>where,</p>
+
+<blockquote>
+<p>MAJOR version when you make incompatible API changes,</p>
+
+<p>MINOR version when you add functionality in a backwards-compatible manner, and</p>
+
+<p>PATCH version when you make backwards-compatible bug fixes.</p>
+
+<p>Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.</p>
+</blockquote>
+
+<h3 id="how-to-add-tags-to-repositories">How to add tags to repositories?</h3>
+
+<p>Tags could be easily added to git worktree using following commands:</p>
+
+<pre><code>// syntax format
+git tag -a &lt;tagname&gt; -m &lt;tag short description&gt;
+
+// example
+git tag -a v0.5 -m &quot;Release 0.5 with updated search API&quot;
+
+// view all tags
+git tag -l
+
+// dealing with remote tags on Github
+git push origin &lt;tag name&gt;
+git push origin v0.5
+git push --tags
+</code></pre>
+
+<p>git tag command other switches
+&gt; <strong>-a</strong> add tag</p>
+
+<blockquote>
+<p><strong>-l</strong> list tags</p>
+
+<p><strong>-d</strong> delete tag</p>
+</blockquote>
+
+<p>[NOTE] you cannot checkout tags in git BUT you can create a branch from a tags</p>
+
+<pre><code>git checkout -b &lt;branchname&gt; &lt;tagname&gt;
+</code></pre>
+
+<h4 id="creating-tags-from-previous-commits">creating tags from previous commits</h4>
+
+<pre><code>git tag &lt;tagname&gt; &lt;commitreference&gt;
+</code></pre>
+
+<h2 id="references">References</h2>
+
+<blockquote>
+<ul>
+<li><a href="https://help.github.com/articles/creating-releases/">Github creating releases</a></li>
+<li><a href="https://semver.org/">Semantic Versioning 2.0.0</a></li>
+</ul>
+</blockquote>
+
+          </div>
+
+          <footer>
+            <section class="w3-panel">
+  
+    <div class="w3-light-grey w3-round-xlarge">
+      <div class="w3-container w3-red w3-round-xlarge" style="width:25%">
+        Revision <span class="w3-badge w3-margin-left">0
+        </span>
+      </div>
+    </div>
+  
+</section>
+
+          </footer>
+
+          
+          
+          <div class="post-comments">
+            <div id="disqus_thread"></div>
+<script>
+  window.addEventListener("load", () => {
+    (function() {
+      
+      var d = document,
+        s = d.createElement("script");
+      s.src = "https://edublog.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  });
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript"
+    >comments powered by Disqus.</a
+  ></noscript
+>
+
+          </div>
+          
+        </div>
+      </div>
+    </article>
+
+    <script src="/js/highlight.pack.js"></script>
+<script src="https://unpkg.com/quicklink@0.1.1/dist/quicklink.umd.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  var posts = document.getElementById('posts-list');
+  posts && quicklink({
+    el: posts,
+    priority: true,
+  });
+</script>
+
+    
+
+
+  </body>
+</html>
