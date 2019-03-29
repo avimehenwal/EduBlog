@@ -173,3 +173,26 @@ a:hover {
   bottom: 0;
   background: white;
 }
+
+/* Asciidoctor custom admonition block icons */
+.admonitionblock td.icon .icon-note::before {
+  content: "\f24a";
+  color:blue;
+}
+
+.admonitionblock td.icon .icon-tip::before {
+  content: "\2605";
+  color:orange;
+}
+.admonitionblock td.icon .icon-important::before {
+  content: "\f241";
+  color:green;
+}
+.admonitionblock td.icon .icon-warning::before {
+  content: "\2665";
+  color:red;
+}
+.admonitionblock td.icon .icon-caution::before {
+  content: "\2716";
+  color:brown;
+}
