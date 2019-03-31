@@ -7,3 +7,4 @@ series      : ["design", "deployment", "development"]
 tags        : [""]
 revision    : 0
 ---
+:icons: font

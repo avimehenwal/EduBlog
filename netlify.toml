@@ -1,0 +1,9 @@
+# making sure Asciidoctor gets installed:
+[build]
+  publish = "public"
+  command = "bundle && hugo"
+
+# The Production Context applies to the branch you have configured as main branch to deploy:
+[context.production.environment]
+  HUGO_VERSION = "0.54"
+  HUGO_ENV = "production"
