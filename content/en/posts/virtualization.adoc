@@ -1,0 +1,44 @@
+---
+title       : "Virtualization"
+date        : 2019-06-19T18:26:00+02:00
+video       : ""
+categories  : ["myLearning"]
+series      : ["design", "deployment", "development"]
+tags        : ["vagrant", "virtualization"]
+revision    : 0
+---
+:icons: font
+
+Virtualization:: abstraction layer which make a s/w (like OS) installed on shared h/w
+as if its native and completely isolated from other s/w apps.
+
+Virtualization saved cost and reuse hardware infrastructure.
+
+.Types of virtualization
+* Server virtualization + total isolation
+  * Type 1 - Hypervisor runs as native
+    * VMware ESX, Citrix XenServer, and Microsoft’s Hyper-V.
+  * Type 2 - Hypervisor runs on top of OS
+    * VMware Workstation and SWSoft’s Parallels Desktop.
+* Network virtualization
+* Storage virtualization
+* Service/ Application virtualization
+
+## Vagrant
+
+the command line utility for managing the lifecycle of virtual machines.
+
+Vagrant File sections and structure
+1. section
+2. provider
+   1. virtualbox
+   2. Hyper-V
+   3. docker
+3. provision
+   1. Ansible
+
+
+[bibliography]
+== References
+
+. https://en.wikipedia.org/wiki/Virtualization
