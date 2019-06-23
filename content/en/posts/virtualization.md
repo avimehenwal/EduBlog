@@ -86,7 +86,15 @@ And use `ENV['MY_VAR']` in recipe.
 
 Vagrant snapshots just call the provider "snapshots" method. So Vagrant snapshot on virtualbox just calls virtualbox snapshot.
 
+> Package and reuse your own vagrant box
 
+```
+# BUILD
+# 1. Downaload ot init a vagrant basebox or bentobox
+# 2. Install required softwares, createa a ansible provision playbook or shellscript
+# 3. Package to resue
+vagrant package --output mynew.box --base NAME --vagrantfile FILE Vagrantfile to package with the box
+```
 
 ### Packer
 
